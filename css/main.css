@@ -1,0 +1,92 @@
+.container{
+	width: 1000px;
+	margin:0 auto;
+}
+
+#grid{
+	background-image: url('../img/grid.png');
+	height:600px;
+	position: relative;
+}
+
+.object{
+	width:100px;
+	height:100px;
+	display: block;
+	position: absolute;
+	background-size: 100%;
+	-webkit-transition: left 1s, top 1s;
+	transition: left 1s, top 1s;
+}
+.object.selected {
+	-webkit-animation-duration: 1s;
+    -webkit-animation-name: pulsate;
+    -webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+}
+
+
+@-webkit-keyframes pulsate {
+    0% {
+    	-webkit-transform: scale(1, 1);
+    	 opacity: 1;
+    }
+    100% {
+    	-webkit-transform: scale(1.05, 1.05); 
+    	opacity: 0.9;
+    }
+}
+
+.object.fox1{
+	background-image: url("../img/fox1.png");
+}
+
+.object.fox2{
+	background-image: url("../img/fox2.png");
+}
+.object.fox3{
+	background-image: url("../img/fox3.png");
+}
+.object.fox4{
+	background-image: url("../img/fox4.png");
+}
+.object.fox5{
+	background-image: url("../img/fox5.png");
+}
+.object.fox6{
+	background-image: url("../img/fox6.png");
+}
+.object.fox7{
+	background-image: url("../img/fox7.png");
+}
+.object.fox8{
+	background-image: url("../img/fox8.png");
+}
+.object.fox9{
+	background-image: url("../img/fox9.png");
+}
+.object.fox10{
+	background-image: url("../img/fox10.png");
+}
+.object.fox11{
+	background-image: url("../img/fox11.png");
+}
+.object.foxt1{
+	background-image: url("../img/foxt1.png");
+}
+.object.foxt2{
+	background-image: url("../img/foxt2.png");
+}
+.object.foxt3{
+	background-image: url("../img/foxt3.png");
+}
+.object.walk{
+	background-image: url("../img/walk.png");
+}
+.object.walk2{
+	background-image: url("../img/walk2.png");
+}
+.object.bush{
+	background-image: url("../img/bush.png");
+}
